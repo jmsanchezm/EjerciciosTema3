@@ -11,7 +11,7 @@ public class Ejercicio4 {
 		//Creamos el Scanner.
 		Scanner read= new Scanner (System.in);
 		//Solicitamos al usuario números.
-		System.out.print("Introduzca números para saber si son pares o impares.");
+		System.out.println("Introduzca números para saber si son pares o impares.");
 		//Ordenamos al Scanner leer el teclado.
 		num=read.nextInt();
 		//Utilizamos un while, para poner que número debe ser distinto a cero.
