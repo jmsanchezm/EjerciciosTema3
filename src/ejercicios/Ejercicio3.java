@@ -25,7 +25,7 @@ public class Ejercicio3 {
 		}
 		/*Una vez haya salido del bucle, debido a que el usuario introdujera un número negativo, se le mostrará lo siguiente en 
 		pantalla. El resultado en este caso se divirá entre dos para calcular la nota media.*/
-		System.out.print("El resultado de la suma de los números enteros es: " + suma/media);
+		System.out.print("El resultado de la suma de los números enteros es: " + (double)(suma/media));
 		//Finalmente, cerramos el Scanner.
 		read.close();
 		
